@@ -1,0 +1,17 @@
+projection implementation in class ZBP_C_TVOA_AULA unique;
+strict ( 2 );
+use draft;
+define behavior for ZC_TVOA_AULA alias ZcTvoaAula
+use etag
+
+{
+  use create;
+  use update;
+  use delete;
+
+  use action Edit;
+  use action Activate;
+  use action Discard;
+  use action Resume;
+  use action Prepare;
+}
